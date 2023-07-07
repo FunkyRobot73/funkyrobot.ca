@@ -6,5 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'FunkyRobot.ca';
+  data = {
+    title: 'FunkyRobot.ca'
+  };
+
+  onLogoClick() {
+    alert("Hello Human")
+  }
+  onKeyUp(newTitle:string) {
+this.data.title = newTitle;
+  }
 }
