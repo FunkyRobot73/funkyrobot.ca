@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { COURSES } from './card-data';
 
 @Component({
   selector: 'app-root',
@@ -16,4 +17,8 @@ export class AppComponent {
   onKeyUp(newTitle:string) {
 this.data.title = newTitle;
   }
+
+  coreCourses = COURSES[0];
+  rxjsCourses = COURSES[1];
+  ngrxCourses = COURSES[2];
 }
