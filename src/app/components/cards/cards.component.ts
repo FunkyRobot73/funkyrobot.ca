@@ -13,4 +13,8 @@ export class CardsComponent {
 
   constructor() {}
 
+  onCourseViewed() {
+    console.log("card button clicked")
+  }
+
 }
