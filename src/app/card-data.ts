@@ -4,26 +4,26 @@ export const COURSES: any = [
 
     {
         id: 1,
-        description: "Angular Core Deep Dive",
-        iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-core-in-depth-small.png',
-        longDescription: "A detailed walk-through of the most important part of Angular - the Core and Common modules",
+        description: "Hamilton Party Ideas",
+        iconUrl: 'https://hamiltonpartyideas.ca/wp-content/uploads/2022/05/IMG_20191119_020736_021-300x300.jpg',
+        longDescription: "My Side Hustle...  Need a DJ or Photo Booth for a Party?  Click here for more info",
         lessonsCount: 10,
-        category: 'INTERMEDIATE'
+        category: 'DJ & Photo Booth'
     },
     {
         id: 2,
-        description: "RxJs In Practice Course",
-        iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/rxjs-in-practice-course.png',
-        longDescription: "Understand the RxJs Observable pattern, learn the RxJs Operators via practical examples",
-        category: 'BEGINNER',
+        description: "Geek2go.ca!",
+        iconUrl: 'https://geek2go.ca/images/undraw_work_time_lhoj.svg',
+        longDescription: "You don't have time to do the dumb boring stuff we love to do. You're selling your widgets or offering your whatchamachallets. You need a geek to do the geek things.",
+        category: 'TechStuff',
         lessonsCount: 10
     },
 
     {
         id: 3,
-        description: 'NgRx In Depth',
-        longDescription: "Learn the modern Ngrx Ecosystem, including Store, Effects, Router Store, Ngrx Entity, Dev Tools and Schematics.",
-        iconUrl: 'https://s3-us-west-1.amazonaws.com/angular-university/course-images/angular-ngrx-course.png',
+        description: 'SnowAngels.org',
+        longDescription: "In recent years, there has been a noticeable trend of an increasing number of seniors opting to remain in their homes as they age, requiring additional assistance.",
+        iconUrl: 'http://www.snowangels.org/assets/images/story/story13.jpg',
         category: 'ADVANCED'
     },
 
