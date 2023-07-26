@@ -226,9 +226,13 @@
 <!-- * * * * * * * * * * End of Placeholder * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<app-cards [course]="coreCourses"></app-cards>
-<app-cards [course]="rxjsCourses"></app-cards>
-<app-cards [course]="ngrxCourses"></app-cards>
+<div class="container">
+  <div class="row">
+    <app-cards class="column" [course]="coreCourses"></app-cards>
+    <app-cards class="column" [course]="rxjsCourses"></app-cards>
+    <app-cards class="column" [course]="ngrxCourses"></app-cards>
+    </div>
+</div>
 
 <app-footer></app-footer>
 
