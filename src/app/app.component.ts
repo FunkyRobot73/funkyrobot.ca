@@ -7,6 +7,8 @@ import { COURSES } from './card-data';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+
+  allowNewServer = false;
   data = {
     title: 'FunkyRobot.ca'
   };
@@ -21,4 +23,10 @@ this.data.title = newTitle;
   coreCourses = COURSES[0];
   rxjsCourses = COURSES[1];
   ngrxCourses = COURSES[2];
+
+  constructor() {
+    setTimeout(() => {
+      this.allowNewServer = true;
+    },3000)
+  }
 }
