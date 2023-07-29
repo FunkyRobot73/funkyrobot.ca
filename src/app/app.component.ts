@@ -9,6 +9,7 @@ import { COURSES } from './card-data';
 export class AppComponent {
 
   allowNewServer = false;
+  serverCreationStatus = "No Server was Created";
   data = {
     title: 'FunkyRobot.ca'
   };

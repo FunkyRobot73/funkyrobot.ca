@@ -234,7 +234,12 @@
     </div>
 </div>
 
-<button class="btn btn-primary" [disabled]="!allowNewServer">CLICK</button>
+<div class="container">
+  <button class="btn btn-primary" [disabled]="!allowNewServer">CLICK</button>
+  {{allowNewServer}}
+  <!-- <p [innerText]="allowNewServer"></p> -->
+  <p>{{serverCreationStatus}}</p>
+</div>
 
 <app-footer></app-footer>
 
