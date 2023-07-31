@@ -14,6 +14,10 @@ export class AppComponent {
     title: 'FunkyRobot.ca'
   };
 
+  onCreateServer() {
+    alert("Hey Carlos")
+  }
+
   onLogoClick() {
     alert("Hello Human")
   }
