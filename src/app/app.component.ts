@@ -35,3 +35,6 @@ this.data.title = newTitle;
     },3000)
   }
 }
+
+
+// Udemy Max course is very good. 
