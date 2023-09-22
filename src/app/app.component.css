@@ -312,3 +312,7 @@
   clear: both;
   display: table;
 }
+
+i {
+  color: #1976d2;
+}
