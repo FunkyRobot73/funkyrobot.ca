@@ -13,7 +13,7 @@ export const COURSES: any = [
     {
         id: 2,
         description: "Geek2go.ca!",
-        iconUrl: 'https://geek2go.ca/images/undraw_work_time_lhoj.svg',
+        iconUrl: 'https://thumbs.dreamstime.com/b/nerd-del-geek-del-computer-33348519.jpg',
         longDescription: "You don't have time to do the dumb boring stuff we love to do. You're selling your widgets or offering your whatchamachallets. You need a geek to do the geek things.",
         category: 'TechStuff',
         lessonsCount: 10
