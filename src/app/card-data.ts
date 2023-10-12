@@ -29,9 +29,9 @@ export const COURSES: any = [
 
     {
         id: 4,
-        description: "Angular for Beginners",
-        iconUrl: 'https://angular-academy.s3.amazonaws.com/thumbnails/angular2-for-beginners-small-v2.png',
-        longDescription: "Establish a solid layer of fundamentals, learn what's under the hood of Angular",
+        description: "Swap2go.ca",
+        iconUrl: 'https://swap2go.ca/assets/images/swap.jpg',
+        longDescription: "Let's sell some comics!!!",
         category: 'BEGINNER',
         lessonsCount: 10
     },

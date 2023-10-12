@@ -28,6 +28,7 @@ this.data.title = newTitle;
   coreCourses = COURSES[0];
   rxjsCourses = COURSES[1];
   ngrxCourses = COURSES[2];
+  swap2go = COURSES[3];
 
   constructor() {
     setTimeout(() => {
