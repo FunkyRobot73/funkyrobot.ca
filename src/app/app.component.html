@@ -59,8 +59,8 @@
   </div>
 
   <!-- Next Steps -->
-  <h2 mt-2>My Socials... Most of them anyways.</h2>
-  <p mb-2>This isn't so much for you as it is for me.</p>
+  <h2>My Socials... Most of them anyways.</h2>
+  <p>This isn't so much for you as it is for me.</p>
 
   <input type="hidden" #selection>
 
@@ -139,7 +139,7 @@
       </button>
     </a>
   </div>
-  <div>
+  <div class="mt-5">
     <input class="demo" value="Test">
     <!-- or see the difference--></div>
   <div class="mt-2">
@@ -148,13 +148,13 @@
   </div>
 
   <!-- Terminal -->
-  <div class="terminal" [ngSwitch]="selection.value">
+  <div class="terminal mt-5" [ngSwitch]="selection.value">
     <pre *ngSwitchDefault>ng something-cool</pre>
 
   </div>
 
   <!-- Links -->
-  <div class="card-container">
+  <div class="card-container mt-5">
     <a class="circle-link" title="Don't Be Stupid"
       href="https://www.geek2go.ca" target="_blank"
       rel="noopener">
@@ -178,9 +178,9 @@
 
   <!-- Footer -->
   <footer>
-    Love Angular?&nbsp;
+    
     <a href="https://github.com/funkyrobot73" target="_blank" rel="noopener">
-      Give our repo a star.
+     <p class="me-3"> Give our repo a star.</p>
       <div class="github-star-badge">
         <svg class="material-icons" xmlns="http://www.w3.org/2000/svg"
           width="24" height="24" viewBox="0 0 24 24"><path d="M0 0h24v24H0z"
